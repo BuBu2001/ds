@@ -74,9 +74,11 @@ class World:
         self.economy = Economy(meta=meta, modifiers=self.modifiers)
         self.wallet = Wallet()
         self.perksystem = PerkSystem(rng=self.rng)
-        self.perksystem.unlocked |= set(meta.unlocked_perks)
+        # в сохранении могут остаться id перков/трофеев из более старой версии данных — фильтруем
+        self.perksystem.unlocked |= {p for p in meta.unlocked_perks if p in self.perksystem.defs}
         self.rune_system = RuneSystem(self.wallet, rng=self.rng)
-        self.rune_system.trophies |= set(meta.trophies)
+        trophy_ids = {r.get("trophy") for r in loader.runes().values() if r.get("trophy")}
+        self.rune_system.trophies |= {t for t in meta.trophies if t in trophy_ids}
         self.inventory = Inventory(slots=meta.inventory_slots)
         self.crafter = Crafter(self.wallet, rng=self.rng)
 

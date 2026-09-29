@@ -198,8 +198,15 @@ def save_game(meta: MetaState, run_state=None, path=SAVE_PATH):
 
 
 def load_game(path=SAVE_PATH):
+    """Возвращает пару (MetaState, run_state). Нет файла — (None, None)."""
     if not os.path.exists(path):
-        return MetaState(), None
+        return None, None
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return MetaState.from_dict(data.get("meta", {})), data.get("run")
+
+
+def load_meta(path=SAVE_PATH):
+    """Только мета-состояние из сохранения (или None, если файла нет)."""
+    meta, _run = load_game(path)
+    return meta

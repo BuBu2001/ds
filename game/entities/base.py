@@ -12,7 +12,10 @@ class Entity:
     def __init__(self, pos, hp=1, radius=0.5):
         self.pos = pos if isinstance(pos, Vector2) else Vector2(*pos)
         self.hp = hp
-        self.max_hp = hp
+        try:                        # у подклассов max_hp может быть свойством (Player)
+            self.max_hp = hp
+        except AttributeError:
+            pass
         self.radius = radius
         self.alive = True
         self.status = StatusContainer()

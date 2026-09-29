@@ -2,7 +2,7 @@
 import time
 from ..input import RawInput, KeyBinding
 from .world import World
-from ..meta.save_data import MetaState, save_game, load_game
+from ..meta.save_data import MetaState, save_game, load_meta
 from ..ui.screens import HudModel, InventoryModel, CampfireScreenModel, DeathScreenModel
 from ..ui.renderer import PygameRenderer
 from ..entities.player import PlayerState
@@ -14,7 +14,7 @@ def run(seed=None):
     screen = pygame.display.set_mode((960, 540))
     pygame.display.set_caption("Экономика и Прогрессия — souls-like roguelike")
     clock = pygame.time.Clock()
-    meta = load_game() or MetaState()
+    meta = load_meta() or MetaState()
     world = World(meta, level=1, seed=seed)
     binding = KeyBinding.from_dict(meta.settings.get("bindings"))
     ri = RawInput()

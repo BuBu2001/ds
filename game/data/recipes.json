@@ -1,0 +1,46 @@
+{
+  "recipes": [
+    {
+      "id": "regen_potion", "name": "Зелье регенерации", "type": "potion",
+      "ingredients": [{"material": "wolf_pelt", "count": 1}, {"material": "herb", "count": 1}],
+      "effect": {"kind": "heal_over_time", "value": 0.30, "duration": 5.0},
+      "desc": "+30% HP за 5 сек"
+    },
+    {
+      "id": "mana_potion", "name": "Зелье маны", "type": "potion",
+      "ingredients": [{"material": "bone", "count": 1}, {"material": "mushroom", "count": 1}],
+      "effect": {"kind": "restore_mana", "value": 0.40},
+      "desc": "+40% маны"
+    },
+    {
+      "id": "fury_potion", "name": "Зелье ярости", "type": "potion",
+      "ingredients": [{"material": "goblin_eye", "count": 1}, {"material": "charcoal", "count": 1}],
+      "effect": {"kind": "damage_buff", "value": 0.20, "duration": 10.0},
+      "desc": "+20% урона на 10 сек"
+    },
+    {
+      "id": "resist_elixir", "name": "Эликсир сопротивления", "type": "elixir",
+      "ingredients": [{"material": "dragon_scale", "count": 1}, {"shards": 2}],
+      "effect": {"kind": "defense_buff", "value": 0.30, "duration": 20.0},
+      "desc": "+30% защиты на 20 сек"
+    },
+    {
+      "id": "abyss_elixir", "name": "Эликсир бездны", "type": "elixir",
+      "ingredients": [{"material": "demon_blood", "count": 1}, {"material": "mana_crystal", "count": 1}, {"shards": 1}],
+      "effect": {"kind": "all_stats_buff", "value": 0.15, "duration": 15.0},
+      "desc": "+15% ко всем статам на 15 сек"
+    },
+    {
+      "id": "random_perk", "name": "Случайный перк", "type": "unlock",
+      "ingredients": [{"shards": 3}],
+      "effect": {"kind": "unlock_random_perk"},
+      "desc": "Открывает случайный перк"
+    },
+    {
+      "id": "sharpening", "name": "Заточка (руна)", "type": "runecraft",
+      "ingredients": [{"material": "wolf_fang", "count": 1}, {"shards": 2}],
+      "effect": {"kind": "apply_rune", "rune": "sharpening"},
+      "desc": "Временная руна: +5 урона, до 3 стаков"
+    }
+  ]
+}

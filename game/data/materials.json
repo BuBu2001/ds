@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {"id": "wolf_pelt",   "name": "Шкура волка",     "drop_normal": 0.15, "drop_elite": 0.40, "levels": [1, 5],   "count_normal": [1, 2], "count_elite": [2, 4]},
+    {"id": "herb",        "name": "Трава",            "drop_normal": 0.20, "drop_elite": 0.50, "levels": [1, 5],   "count_normal": [1, 3], "count_elite": [3, 5]},
+    {"id": "wolf_fang",   "name": "Клык волка",       "drop_normal": 0.10, "drop_elite": 0.30, "levels": [1, 5],   "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "slime",       "name": "Слизь",            "drop_normal": 0.25, "drop_elite": 0.60, "levels": [1, 5],   "count_normal": [2, 4], "count_elite": [4, 6]},
+    {"id": "goblin_eye",  "name": "Глаз гоблина",     "drop_normal": 0.10, "drop_elite": 0.30, "levels": [1, 5],   "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "charcoal",    "name": "Древесный уголь",  "drop_normal": 0.10, "drop_elite": 0.30, "levels": [1, 5],   "count_normal": [1, 3], "count_elite": [3, 5]},
+    {"id": "bone",        "name": "Кость скелета",    "drop_normal": 0.18, "drop_elite": 0.45, "levels": [6, 10],  "count_normal": [1, 2], "count_elite": [2, 3]},
+    {"id": "mushroom",    "name": "Гриб",             "drop_normal": 0.12, "drop_elite": 0.35, "levels": [6, 10],  "count_normal": [1, 2], "count_elite": [2, 4]},
+    {"id": "web",         "name": "Паутина",          "drop_normal": 0.15, "drop_elite": 0.40, "levels": [6, 10],  "count_normal": [1, 3], "count_elite": [3, 5]},
+    {"id": "silver_ore",  "name": "Серебряная руда",  "drop_normal": 0.08, "drop_elite": 0.25, "levels": [6, 10],  "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "ribs",        "name": "Рёбра",            "drop_normal": 0.14, "drop_elite": 0.38, "levels": [6, 10],  "count_normal": [1, 2], "count_elite": [2, 3]},
+    {"id": "dragon_scale","name": "Чешуя дракона",    "drop_normal": 0.05, "drop_elite": 0.20, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "mana_crystal","name": "Кристалл маны",    "drop_normal": 0.08, "drop_elite": 0.25, "levels": [11, 20], "count_normal": [1, 2], "count_elite": [2, 3]},
+    {"id": "demon_blood", "name": "Кровь демона",     "drop_normal": 0.06, "drop_elite": 0.22, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "ectoplasm",   "name": "Эктоплазма",       "drop_normal": 0.07, "drop_elite": 0.25, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "obsidian",    "name": "Обсидиан",         "drop_normal": 0.05, "drop_elite": 0.18, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 2]},
+    {"id": "gold_ore",    "name": "Золотая руда",     "drop_normal": 0.03, "drop_elite": 0.12, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 1]},
+    {"id": "dragon_hide", "name": "Кожа дракона",     "drop_normal": 0.02, "drop_elite": 0.10, "levels": [11, 20], "count_normal": [1, 1], "count_elite": [1, 1]}
+  ]
+}

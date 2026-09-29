@@ -1,0 +1,29 @@
+{
+  "perks": [
+    {"id": "pyromancer",       "name": "Пиромант",            "condition": {"stat": "kills_fire", "count": 50},   "effects": {"fire_damage": 0.05}},
+    {"id": "cryomancer",       "name": "Криомант",            "condition": {"stat": "kills_ice", "count": 50},     "effects": {"ice_damage": 0.05, "freeze_chance": 0.02}},
+    {"id": "blade_master",     "name": "Мастер клинка",       "condition": {"stat": "kills_sword", "count": 100},  "effects": {"melee_damage": 0.08}},
+    {"id": "icebreaker",       "name": "Ледокол",             "condition": {"stat": "frozen_shattered", "count": 30}, "effects": {"crit_vs_frozen": 0.15}},
+    {"id": "steam_killer",     "name": "Паровой убийца",      "condition": {"stat": "kills_steam", "count": 20},   "effects": {"steam_damage": 0.10}},
+    {"id": "silence",          "name": "Тишина",              "condition": {"stat": "mages_interrupted", "count": 10}, "effects": {"damage_vs_casting": 0.20}},
+    {"id": "resilience",       "name": "Стойкость",           "condition": {"stat": "dungeons_no_rest", "count": 1}, "effects": {"max_hp": 0.10, "max_stamina": 0.10, "stamina_regen": 1.0}},
+    {"id": "greed",            "name": "Жадность",            "condition": {"stat": "coal_total", "count": 100},   "effects": {"coal_drop": 0.05}},
+    {"id": "flawless",         "name": "Безупречность",       "condition": {"stat": "bosses_no_damage", "count": 1}, "effects": {"all_stats": 0.05}},
+    {"id": "alchemist",        "name": "Алхимик",             "condition": {"stat": "potions_used", "count": 50},  "effects": {"potion_power": 0.10}},
+    {"id": "ashen_guard",      "name": "Пепельный страж",     "condition": {"stat": "kills_while_burning", "count": 50}, "effects": {"damage_low_hp": 0.10}},
+    {"id": "ice_heart",        "name": "Ледяное сердце",      "condition": {"stat": "freeze_kills", "count": 50},  "effects": {"damage_vs_frozen": 0.15, "freeze_chance": 0.05}},
+    {"id": "steam_master",     "name": "Паровой мастер",      "condition": {"stat": "kills_steam_nohit", "count": 30}, "effects": {"steam_damage": 0.20, "steam_duration": 2.0}},
+    {"id": "collector",        "name": "Коллекционер",        "condition": {"stat": "coal_early", "count": 500},   "effects": {"coal_drop": 0.10, "shard_drop": 0.05}},
+    {"id": "minimalist",       "name": "Минималист",          "condition": {"stat": "sword_only_d5", "count": 1},  "effects": {"sword_damage": 0.15, "attack_speed": 0.10}},
+    {"id": "pyromania",        "name": "Пиромания",           "condition": {"stat": "ignited", "count": 200},      "effects": {"burn_stacks_max": 1}},
+    {"id": "cryo_extremal",    "name": "Криомант-экстремал",  "condition": {"stat": "freezes_anomaly", "count": 50}, "effects": {"ice_damage": 0.10, "slow_bonus": 0.10}},
+    {"id": "shadow",           "name": "Тень",                "condition": {"stat": "pacifist_runs", "count": 3},  "effects": {"out_of_combat_speed": 0.20, "evasion": 0.10}},
+    {"id": "butcher",          "name": "Мясник",              "condition": {"stat": "low_hp_executions", "count": 100}, "effects": {"damage_vs_low_hp": 0.20}},
+    {"id": "no_campfire",      "name": "Без костра",          "condition": {"stat": "levels_no_rest", "count": 10}, "effects": {"max_hp": 0.15, "max_mana": 0.15}, "burns_on_rest": true},
+    {"id": "rune_master",      "name": "Рунический мастер",   "condition": {"stat": "runes_applied", "count": 20}, "effects": {"rune_slots": 1}},
+    {"id": "mage_slayer",      "name": "Убийца магов",        "condition": {"stat": "mages_interrupted", "count": 50}, "effects": {"damage_vs_casting": 0.25, "dodge_speed": 0.10}},
+    {"id": "lore_collector",   "name": "Собиратель лора",     "condition": {"stat": "wall_runes", "count": 20},    "effects": {"all_stats": 0.10}},
+    {"id": "suicide",          "name": "Самоубийца",          "condition": {"stat": "deaths", "count": 20},        "effects": {"coal_loss": -0.15}},
+    {"id": "untouched",        "name": "Невредимый",          "condition": {"stat": "levels_no_damage", "count": 10}, "effects": {"all_stats": 0.05, "crit_chance": 0.10}}
+  ]
+}

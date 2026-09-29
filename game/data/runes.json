@@ -1,0 +1,17 @@
+{
+  "temporary_runes": [
+    {"id": "blood_rune",   "name": "Руна Крови",    "cost_shards": 3, "effects": {"lifesteal": 0.05, "max_hp": -0.10}},
+    {"id": "sharpening",   "name": "Заточка",       "cost_shards": 2, "max_stacks": 3, "effects": {"flat_damage": 5}},
+    {"id": "ice_rune",     "name": "Руна Льда",     "cost_shards": 4, "effects": {"freeze_chance": 0.10}},
+    {"id": "fire_rune",    "name": "Руна Огня",     "cost_shards": 4, "effects": {"burn_damage": 0.15}},
+    {"id": "speed_rune",   "name": "Руна Скорости", "cost_shards": 3, "effects": {"attack_speed": 0.10, "damage": -0.05}}
+  ],
+  "permanent_runes": [
+    {"id": "void_rune",  "name": "Руна Пустоты", "cost_shards": 15, "trophy": "abyss_heart",      "effects": {"instant_kill_chance": 0.05}},
+    {"id": "life_rune",  "name": "Руна Жизни",   "cost_shards": 10, "trophy": "bone_lord_skull",  "effects": {"max_hp": 0.15}},
+    {"id": "mana_rune",  "name": "Руна Маны",    "cost_shards": 10, "trophy": "shaman_eye",       "effects": {"max_mana": 0.20, "mana_regen": 2.0}}
+  ],
+  "removal_cost_shards": 5,
+  "permanent_replace_cost_shards": 10,
+  "enchant_chance_ng": 0.05
+}

@@ -1,0 +1,27 @@
+{
+  "modifiers": [
+    {"id": "explosive_corpses", "name": "Взрывные трупы",   "desc": "Мобы при смерти взрываются (10 урона, 2 м)", "params": {"damage": 10, "radius": 2.0}},
+    {"id": "stinginess",        "name": "Скупость",         "desc": "Костры дают 1 заряд отдыха. Трава не лечит.", "params": {"rest_charges": 1}},
+    {"id": "elite_aura",        "name": "Аура элиток",      "desc": "Элитки лечат ближайших мобов на 2% HP/сек, радиус 5 м", "params": {"heal_pct": 0.02, "radius": 5.0}},
+    {"id": "abyss_greed",       "name": "Жадность бездны",  "desc": "Угли не падают. Осколки 10%. Курс: 1 осколок = 10 углей", "params": {"no_coal": true, "shard_chance": 0.10, "reverse_rate": 10}},
+    {"id": "glass_cannon",      "name": "Стеклянная пушка", "desc": "Игрок +50% урона, получает +100%", "params": {"player_damage": 0.5, "player_taken": 1.0}},
+    {"id": "slowdown",          "name": "Замедление",       "desc": "Анимации мобов +30%, игрок +20%. Рывок без изменений", "params": {"mob_anim": 0.3, "player_anim": 0.2}},
+    {"id": "blood_moon",        "name": "Кровавая луна",    "desc": "HP мобов ×1.5, дроп материалов ×2", "params": {"mob_hp_mult": 1.5, "mat_mult": 2.0}},
+    {"id": "silence_mod",       "name": "Тишина",           "desc": "Маги не кастуют, но мобы +30% скорость атаки", "params": {"mages_silent": true, "mob_attack_speed": 0.3}},
+    {"id": "grav_chaos",        "name": "Гравитационный хаос", "desc": "Глобальная аномалия каждые 15 сек", "params": {"anomaly_period": 15.0}},
+    {"id": "campfire_curse",    "name": "Проклятие костра", "desc": "Угроза +20% за отдых, дроп углей +25%", "params": {"threat_bonus": 0.20, "coal_bonus": 0.25}}
+  ],
+  "ng_cycles": [
+    {"cycle": 1, "hp_mult": 1.5, "dmg_mult": 1.3, "modifiers": 1},
+    {"cycle": 2, "hp_mult": 2.0, "dmg_mult": 1.6, "modifiers": 2},
+    {"cycle": 3, "hp_mult": 2.8, "dmg_mult": 2.0, "modifiers": 3},
+    {"cycle": 4, "hp_mult": 3.5, "dmg_mult": 2.5, "modifiers": 4}
+  ],
+  "ng_plus5_rule": {"hp_per_cycle": 0.7, "dmg_per_cycle": 0.4, "max_modifiers": 4},
+  "legacies": [
+    {"id": "start_rune",     "name": "Стартовая руна",        "desc": "1 случайная руна с меча становится стартовой"},
+    {"id": "shard_carry",    "name": "Наследие осколков",     "desc": "10% накопленных Осколков переносятся", "params": {"pct": 0.10}},
+    {"id": "start_perk",     "name": "Стартовый перк",        "desc": "1 случайный перк становится стартовым"},
+    {"id": "coal_bonus",     "name": "Уголь предков",         "desc": "+5% к дропу углей навсегда (стакается до +25%)", "params": {"per_stack": 0.05, "max": 0.25}}
+  ]
+}

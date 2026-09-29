@@ -6,6 +6,9 @@
 
 - 📖 Обложка и синопсис — [COVER.md](COVER.md)
 - 📥 Установка и запуск — [INSTALL.md](INSTALL.md)
+- 🐧 Отдельные руководства: [Debian/Ubuntu](docs/install/DEBIAN-UBUNTU.md) ·
+  [Arch Linux](docs/install/ARCH-LINUX.md) · [Fedora/RHEL](docs/install/FEDORA-RHEL.md) ·
+  [openSUSE](docs/install/OPENSUSE.md) · [macOS](docs/install/MACOS.md) · [Windows](docs/install/WINDOWS.md)
 - ⚖️ Лицензия (копирование запрещено) — [LICENSE](LICENSE)
 
 ## Кратко

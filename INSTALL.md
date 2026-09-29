@@ -1,6 +1,16 @@
 # 📖 ИНСТРУКЦИЯ ПО УСТАНОВКЕ
 «Экономика и Прогрессия» — Souls-like рогалик на Python (самописный движок)
 
+> ℹ️ Это общая, дистрибутив-независимая инструкция. Отдельные пошаговые
+> руководства для конкретных систем — в папке [`docs/install/`](docs/install/README.md):
+>
+> - 🐧 [Debian / Ubuntu / Linux Mint](docs/install/DEBIAN-UBUNTU.md)
+> - 🏔️ [Arch Linux / EndeavourOS / Manjaro](docs/install/ARCH-LINUX.md)
+> - 🎩 [Fedora / RHEL / CentOS Stream](docs/install/FEDORA-RHEL.md)
+> - 🦎 [openSUSE Tumbleweed / Leap](docs/install/OPENSUSE.md)
+> - 🍎 [macOS](docs/install/MACOS.md)
+> - 🪟 [Windows 10/11](docs/install/WINDOWS.md)
+
 ---
 
 ## 1. Системные требования

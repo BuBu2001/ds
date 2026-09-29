@@ -5,6 +5,11 @@
 
 > Проверено на: Debian 12 (bookworm), Ubuntu 22.04 / 24.04 LTS, Linux Mint 21+.
 
+> 💡 Быстрее всего — автоматический установщик в корне проекта:
+> `bash setup.sh` (поддерживает Debian/Ubuntu, Arch, Fedora/RHEL, openSUSE, macOS).
+> Ниже — ручная установка шаг за шагом.
+
+
 ---
 
 ## 1. Системные пакеты

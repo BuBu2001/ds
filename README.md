@@ -17,6 +17,14 @@
 сущностей, мета-прогрессия и NG+ с модификаторами правил.
 
 ## Быстрый старт
+
+Автоматически (Linux/macOS, сам определит дистрибутив):
+
+```bash
+bash setup.sh
+```
+
+Или вручную:
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install pygame

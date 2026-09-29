@@ -6,6 +6,11 @@
 > Проверено на: Arch Linux (rolling), EndeavourOS. Manjaro — то же, если
 > синхронизированы зеркала (`sudo pacman -Sy`).
 
+> 💡 Быстрее всего — автоматический установщик в корне проекта:
+> `bash setup.sh` (поддерживает Debian/Ubuntu, Arch, Fedora/RHEL, openSUSE, macOS).
+> Ниже — ручная установка шаг за шагом.
+
+
 ---
 
 ## 1. Системные пакеты
